@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <h2>Your Profile 🌷</h2>
+    <p><b>Name:</b> {{ user.name }}</p>
+    <p><b>Age:</b> {{ user.age }}</p>
+
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="photo">
+        <button>Update Photo</button>
+    </form>
+</div>
+{% endblock %}

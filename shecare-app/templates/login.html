@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login - HerAura</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h2>Welcome to HerAura 🌸</h2>
+
+            <form method="post">
+                <input name="name" placeholder="Name" required>
+                <input name="age" placeholder="Age" required>
+                <input type="date" name="last_period" required>
+                <textarea name="experience" placeholder="Describe your experience"></textarea>
+                <button>Enter My Space</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
